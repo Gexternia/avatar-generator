@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador d'Avatars Noir</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background: url('../assets/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3, p {
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        h1 {
+            font-size: 3rem;
+            margin-top: 30px;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        h3 {
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+        }
+        textarea, input[type="text"] {
+            width: 100%;
+            height: 100px;
+            resize: vertical;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            margin-bottom: 20px;
+        }
+        button, a.download-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background: #444;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            text-align: center;
+            text-decoration: none;
+        }
+        button:hover, a.download-btn:hover {
+            background: #666;
+        }
+        .hidden {
+            display: none;
+        }
+        .spinner {
+            margin: 20px auto;
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #444;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .avatar-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .avatar-container img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .final-message {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            text-align: center;
+            font-size: 1.4rem;
+            line-height: 1.6;
+            color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+        }
+        a.mail-link {
+            color: #00bcd4;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        a.mail-link:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            .container, .final-message {
+                margin: 20px auto;
+                padding: 15px;
+            }
+            button, a.download-btn {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Botón para cambiar idioma -->
+    <div style="text-align: right; padding: 10px;">
+        <button onclick="location.href='/'" style="background: none; border: none; color: #00bcd4; text-decoration: underline; font-size: 1rem; cursor: pointer;">
+            Canviar idioma
+        </button>
+    </div>
+
+    <div class="container">
+        <h1>Generador d'Avatars Noir</h1>
+        <h2>Benvingut/da al Sopar de Nadal</h2>
+        <p>El pròxim dimarts 10 de desembre, la Direcció de Comunicació i Relacions Institucionals de Caixabank celebrarà el Sopar de Nadal a l'espai "The 19th Hole". Per accedir-hi, hauràs de mostrar el teu avatar a la recepció.</p>
+        <p>Què és un avatar? És un personatge que representarà la teva identitat creativa. Pot ser qualsevol cosa que imaginis: un detectiu misteriós, una estrella de cinema o un geni de l'art. Ara és el teu torn per dissenyar el teu propi protagonista per aquest esdeveniment inoblidable.</p>
+        
+        <div id="step-1">
+            <h3>Primera pregunta: Quina és la teva cançó preferida?</h3>
+            <input type="text" id="song" placeholder="Escriu aquí la teva cançó preferida">
+            <button onclick="nextStep(1)">Següent</button>
+        </div>
+
+        <div id="step-2" class="hidden">
+            <h3>Segona pregunta: Prefereixes un avatar masculí o femení?</h3>
+            <label>
+                <input type="radio" name="gender" value="masculí"> Masculí
+            </label>
+            <label>
+                <input type="radio" name="gender" value="femení"> Femení
+            </label>
+            <button onclick="nextStep(2)">Següent</button>
+        </div>
+
+        <div id="step-3" class="hidden">
+            <h3>Tercera pregunta: Descriu el teu avatar</h3>
+            <p>El teu avatar pot ser qualsevol cosa que imaginis. Per exemple: "Una jove amb ulleres, cabell llarg i un abric vermell", o "Un home misteriós amb vestit negre i un cigar".</p>
+            <textarea id="description" placeholder="Descriu l'aspecte físic del teu avatar..."></textarea>
+            <button onclick="nextStep(3)">Següent</button>
+        </div>
+
+        <div id="step-4" class="hidden">
+            <h3>Última pregunta: Quina és la professió del teu avatar?</h3>
+            <p>Pensa en el paper que el teu avatar exercirà a l'esdeveniment. Pot ser un detectiu, un artista, o fins i tot un espia secret.</p>
+            <input type="text" id="profession" placeholder="Escriu la professió del teu avatar...">
+            <button onclick="showSubmit()">Finalitzar</button>
+        </div>
+
+        <div id="submit-section" class="hidden">
+            <div id="loading" class="hidden">
+                <div class="spinner"></div>
+                <p>Generant el teu avatar, espera uns segons...</p>
+            </div>
+            <button id="generateAvatar" onclick="submitForm()">Generar Avatar</button>
+            <div id="avatar-result" class="hidden avatar-container">
+                <img id="avatarImage" alt="El teu avatar generat">
+                <a id="downloadAvatar" class="download-btn" download="avatar-noir.png">Descarregar Avatar</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="final-message" class="hidden final-message">
+        <h2>Gràcies per generar el teu avatar</h2>
+        <p>No oblidis mostrar-lo a la porta per accedir a l'esdeveniment. T'hi esperem!</p>
+        <p>Per a qualsevol dubte o pregunta, escriu a: <a class="mail-link" href="mailto:relacions.institucionals@caixabank.com">relacions.institucionals@caixabank.com</a></p>
+    </div>
+
+    <script>
+        let currentStep = 1;
+
+        function nextStep(step) {
+            document.getElementById(`step-${step}`).classList.add('hidden');
+            document.getElementById(`step-${step + 1}`).classList.remove('hidden');
+        }
+
+        function showSubmit() {
+            document.getElementById('step-4').classList.add('hidden');
+            document.getElementById('submit-section').classList.remove('hidden');
+        }
+
+        async function submitForm() {
+            const data = {
+                song: document.getElementById('song').value,
+                gender: document.querySelector('input[name="gender"]:checked').value,
+                description: document.getElementById('description').value,
+                profession: document.getElementById('profession').value
+            };
+
+            document.getElementById('loading').classList.remove('hidden');
+            document.getElementById('generateAvatar').classList.add('hidden');
+
+            const response = await fetch('/generate-avatar', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data),
+            });
+
+            document.getElementById('loading').classList.add('hidden');
+
+            if (response.ok) {
+                const result = await response.json();
+                const avatarUrl = result.avatarUrl;
+
+                const avatarImage = document.getElementById('avatarImage');
+                avatarImage.src = avatarUrl;
+                document.getElementById('downloadAvatar').href = avatarUrl;
+                document.getElementById('avatar-result').classList.remove('hidden');
+
+                document.getElementById('downloadAvatar').addEventListener('click', () => {
+                    document.querySelector('.container').classList.add('hidden');
+                    document.getElementById('final-message').classList.remove('hidden');
+                });
+            } else {
+                alert('Error en generar l\'avatar.');
+                document.getElementById('generateAvatar').classList.remove('hidden');
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecciona tu idioma</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background: url('assets/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-top: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        p {
+            font-size: 1.2rem;
+            margin: 20px auto;
+            max-width: 600px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .language-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .language-buttons button {
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            margin: 0 10px;
+            font-size: 1.2rem;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .language-buttons button:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Generador de Avatares Noir</h1>
+    <p>Bienvenid@ a la Cena de Navidad de Caixabank. Por favor, selecciona tu idioma:</p>
+    <div class="language-buttons">
+        <button onclick="location.href='/es/index.html'">Español</button>
+        <button onclick="location.href='/ca/index.html'">Català</button>
+    </div>
+</body>
+</html>

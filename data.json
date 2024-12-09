@@ -1,0 +1,242 @@
+[
+  {
+    "song": "Esa Estrella",
+    "gender": "masculino",
+    "description": "pelo rubio rizado, ojos azules, edad 30 años, vestimenta traje negro con pajarita",
+    "profession": "Agente secreto",
+    "avatarPrompt": "**Creación de Avatar de Novela Gráfica Estilo Noir:**\n\n**Nombre:** Jack Stellar\n\n**Descripción Física:**\nJack Stellar es un atractivo hombre de 30 años, refleja un aura de m",
+    "avatarUrl": "output_0.webp"
+  },
+  {
+    "song": "Otra vez",
+    "gender": "masculino",
+    "description": "Rubio rizado, verdes, 30, traje negro",
+    "profession": "Policia",
+    "avatarPrompt": "Título del Personaje: Vincent Marlowe\n\n**Descripción General**:\nVincent Marlowe se presenta en la novela gráfica con un aire melancólico y enigmático, típico del género Noir",
+    "avatarUrl": "output_0.webp"
+  },
+  {
+    "song": "Esa Estrella",
+    "gender": "masculino",
+    "description": "rubio y rizado, verdes, 30, traje negro",
+    "profession": "Policía",
+    "avatarPrompt": "Nombre del Avatar: Jack Marlowe\n\nDescripción del Avatar: Jack Marlowe es el epítome del misterio y la sofisticación en el oscuro mundo de la novela gráfica estilo Noir. Con aproximadamente 30 años, Jack posee una cabellera rubia y rizada que contrasta poderosamente con el intenso verde de sus ojos, brindándole una presencia magnética y un tanto enigmática. Su atuendo consiste en un traje negro a medida, que complementa perfectamente con una camisa blanca y una corbata delgada, también negra, que le otorga un aire de distinción y seriedad.\n\nProfesión y Doble Vida: A simple vista, Jack Marlowe es un dedicado policía, conocido en su departamento por su meticulosidad y su compromiso con la justicia. Sin embargo, bajo esta fachada de legalidad, Jack esconde un secreto que podría poner en riesgo no solo su carrera, sino también su vida. Por las noches, se transforma en un investigador privado que se adentra en las profundidades de la ciudad para resolver casos que están más allá del alcance o interés de la policía ordinaria.\n\nPersonalidad y Rasgos Psicológicos: Jack es un hombre de pocas palabras, pero de un intelecto agudo y una observación detallada. Tiene un fuerte sentido de la justicia y una enorme capacidad para mantener la calma en situaciones críticas, lo que le permite manejar con destreza los aspectos más sombríos y complicados de sus investigaciones. A pesar de su aparente frialdad, Jack tiene un lado más vulnerable y melancólico, que rara vez muestra pero que se refleja en su canción favorita, \"Esa Estrella,\" un sombrío recordatorio de un amor perdido que todavía lo atormenta.\n\nPapel en la Trama: En la novela gráfica, Jack se encuentra persiguiendo la pista de un serial killer que ha estado aterrorizando la ciudad con crímenes que parecen tener componentes rituales. Su búsqueda lo lleva por un laberinto de corrupción y secretos ocultos dentro de las mismas estructuras de poder de la ciudad, incluyendo su propio departamento de policía. A medida que profundiza en el caso, Jack debe lidiar con trampas y dilemas morales que ponen a prueba su lealtad y sus principios.\n\nEn este oscuro entorno, Jack Marlowe no solo busca resolver el caso para hacer justicia, sino también para encontrar redención personal y quizá, finalmente, una forma de dejar atrás los fantasmas de su pasado.",
+    "avatarUrl": {}
+  },
+  {
+    "song": "Volverá",
+    "gender": "masculino",
+    "description": "rubio rizado, verdes, 30, traje negro y pajarita",
+    "profession": "Policía",
+    "avatarPrompt": "Dibujo de un personaje estilo novela gráfica noir. Es masculino con rubio rizado, verdes, 30, traje negro y pajarita y trabaja como Policía. La imagen tiene un estilo de novela negra, policíaca, similar a Sin City, con un ambiente oscuro y sombrío. Inspirado en el género Noir clásico, debe evocar una sensación de misterio y dramatismo.",
+    "avatarUrl": {}
+  },
+  {
+    "song": "Esa estrella",
+    "gender": "masculino",
+    "description": "Rubio, verdes, 25 años, pantalon vaquero y chaqueta de cuero",
+    "profession": "fontanero",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es masculino con Rubio, verdes, 25 años, pantalon vaquero y chaqueta de cuero y trabaja como fontanero. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": {}
+  },
+  {
+    "song": "Madrid",
+    "gender": "femenino",
+    "description": "Rojo rizado, verdes, 25, vestido morado",
+    "profession": "Reportera",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es femenino con Rojo rizado, verdes, 25, vestido morado y trabaja como Reportera. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/NFoCnl6KeW1xAK6yDFP409844Smh7Rk7C1in91IdF8BcmfvTA/out-0.webp"
+  },
+  {
+    "song": "Madrid",
+    "gender": "masculino",
+    "description": "Rubio y largo, verdes, 50 años, traje oscuro",
+    "profession": "policia secreto",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es masculino con Rubio y largo, verdes, 50 años, traje oscuro y trabaja como policia secreto. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/kfTDl6O6eZg3D0FrHjlaVvKciVMfWYVemXEQz4WcHbOH78fdC/out-0.webp"
+  },
+  {
+    "song": "ESDL",
+    "gender": "masculino",
+    "description": "Moreno afro, oscuros, 50 años, estilo funk",
+    "profession": "DJ",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es masculino con Moreno afro, oscuros, 50 años, estilo funk y trabaja como DJ. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/rvBJOZ4LgMrSCNPj7Uft5L3cQA045m1ee5foGvnTf23je9D8E/out-0.webp"
+  },
+  {
+    "song": "ESDL",
+    "gender": "femenino",
+    "description": "Rizado, verdes, 4, uniforme escolar",
+    "profession": "colegial",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es femenino con Rizado, verdes, 4, uniforme escolar y trabaja como colegial. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/pmynrrf2Co08NCYCZiz6aGnqejPdiAbhmBBerVi3snfHkfBeE/out-0.webp"
+  },
+  {
+    "song": "ESDL",
+    "gender": "femenino",
+    "description": "Rizado pelo rosa, ojos verdes, 4 años, uniforme escolar",
+    "profession": "niña de colegio",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es femenino con Rizado pelo rosa, ojos verdes, 4 años, uniforme escolar y trabaja como niña de colegio. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/GmWZpI1GrF7RP15GI2u61jrNMHkvLL7vPMDWKsthLaEWeH4JA/out-0.webp"
+  },
+  {
+    "song": "Esa Estrella",
+    "gender": "femenino",
+    "description": "Rizado, azules, 20 años, gabardina oscura",
+    "profession": "Periodista",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es femenino con Rizado, azules, 20 años, gabardina oscura y trabaja como Periodista. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/CeaztBWKdS3EdiBxeriRLXKI9WeqDIop0nbB1yttCT0TCggnA/out-0.webp"
+  },
+  {
+    "song": "Esa Estrella",
+    "gender": "femenino",
+    "description": "azules, vestido rojo, rubio, 50",
+    "profession": "aristocrata",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es femenino con azules, vestido rojo, rubio, 50 y trabaja como aristocrata. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/2s0lg4f8USSBbiWYy4XGSdTdCQCSjeOnAMpT5j9hC4xcEQwTA/out-0.webp"
+  },
+  {
+    "song": "Esa Estrella",
+    "gender": "femenino",
+    "description": "pecas con un perro",
+    "profession": "aristocrata",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es femenino con pecas con un perro y trabaja como aristocrata. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/9Q7B0OhRGqa6BJpHM0LEUdkc13V15iljTXnUt8k81bfYDI4JA/out-0.webp"
+  },
+  {
+    "song": "Esa Estrella",
+    "gender": "femenino",
+    "description": "pecas, tatuaje de un corazon, gafas, sombrero",
+    "profession": "aristocrata",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es femenino con pecas, tatuaje de un corazon, gafas, sombrero y trabaja como aristocrata. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/INequhXs7U34Oa20lPbPqpX06EwjM9U0ApF7vSwHH1MtDI4JA/out-0.webp"
+  },
+  {
+    "song": "Esa Estrella",
+    "gender": "masculino",
+    "description": "pecas, tatuaje de un corazon, gafas, sombrero",
+    "profession": "aristocrata",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es masculino con pecas, tatuaje de un corazon, gafas, sombrero y trabaja como aristocrata. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/xd52bv5ieFQXeUtPxfVQrgorNYlXhg5Ywgk6748RxoyIRggnA/out-0.webp"
+  },
+  {
+    "song": "Esa Estrella",
+    "gender": "masculino",
+    "description": "feo gordo gafas tatuaje ancla",
+    "profession": "panadero",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es masculino con feo gordo gafas tatuaje ancla y trabaja como panadero. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/08KnhVWiPRoPB5xVmmvhbBI2d9rwXK6l5HxHfSjoaDyWFI4JA/out-0.webp"
+  },
+  {
+    "song": "Esa Estrella",
+    "gender": "masculino",
+    "description": "una persona gorda y fea que lleva gafas",
+    "profession": "panadero",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es masculino con una persona gorda y fea que lleva gafas y trabaja como panadero. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/xmnPa1OIhjIrD9yEOR20eqARgXGemPnR1mL9LfmBeCfZeCE8E/out-0.webp"
+  },
+  {
+    "song": "Esa Estrella",
+    "gender": "masculino",
+    "description": "una persona con sombrero y ojos azules con tatuajes en el cuello",
+    "profession": "policia",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es masculino con una persona con sombrero y ojos azules con tatuajes en el cuello y trabaja como policia. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/FgcitUteEY0gEKF49A2zRCwv6HTh7MwCiB0AtIeIp4xtMQwTA/out-0.webp"
+  },
+  {
+    "song": "La oreja de Vab Gogh",
+    "gender": "masculino",
+    "description": "Pelo Rubio, edad 50 años, ojos grises, viste de uniforme",
+    "profession": "cartero",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es masculino con Pelo Rubio, edad 50 años, ojos grises, viste de uniforme y trabaja como cartero. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/q008CqhySb7zKJONoSiQtUfZ3GndJ69kljoiaQXINAM2Zi8JA/out-0.webp"
+  },
+  {
+    "song": "Esa Estrella, Siloé",
+    "gender": "femenino",
+    "description": "Una mujer de 50 años con pelo rizado, gafas, labios pintados de negro, un vestido elegante debajo de un abrigo de piel. Está fumando en pipa. Lleva las uñas pintadas de rojo. Tiene varios anillos en los dedos. Lleva un collar de perlas, con pendientes a juego. Está sentada tranquilamente en una biblioteca.",
+    "profession": "Directora de un periódico",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es femenino con Una mujer de 50 años con pelo rizado, gafas, labios pintados de negro, un vestido elegante debajo de un abrigo de piel. Está fumando en pipa. Lleva las uñas pintadas de rojo. Tiene varios anillos en los dedos. Lleva un collar de perlas, con pendientes a juego. Está sentada tranquilamente en una biblioteca. y trabaja como Directora de un periódico. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/yfvw8g2Q6J0yDyOvW3HIBx8CB89bgE347URp0O6RG480ni8JA/out-0.webp"
+  },
+  {
+    "song": "Falling in reverse",
+    "gender": "masculino",
+    "description": "Un hombre de 60 años, calvo, con arrugas, lleva un abrigo oscuro y tiene unas gafas Rayban wyrefire negras.",
+    "profession": "piloto de aviones jubilado",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es masculino con Un hombre de 60 años, calvo, con arrugas, lleva un abrigo oscuro y tiene unas gafas Rayban wyrefire negras. y trabaja como piloto de aviones jubilado. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/PT95T7r1sFKJP5DMtit4fen2JDf7TdvfezJOee2zn42DUqi8JA/out-0.webp"
+  },
+  {
+    "song": "Avatares",
+    "gender": "masculino",
+    "description": "Un hombre muy gordo de unos 50 años, con una descomunal tripa. Desnudo, lleno de tatuajes y Calvo.",
+    "profession": "Está en la carcel",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es masculino con Un hombre muy gordo de unos 50 años, con una descomunal tripa. Desnudo, lleno de tatuajes y Calvo. y trabaja como Está en la carcel. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/Z8e6ZiffQGd9HIAobjfjXQ4Kga9PfnohM9pFwROKqzczGrIfE/out-0.webp"
+  },
+  {
+    "song": "Esa Estrella, Siloé",
+    "gender": "femenino",
+    "description": "Una mujer con grandes pechos desnuda",
+    "profession": "camarera",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es femenino con Una mujer con grandes pechos desnuda y trabaja como camarera. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/3A4v1rshr2ZBH9XX5dnWUcAZaQ8vNxAexdqQPV6k2B0fiF5TA/out-0.webp"
+  },
+  {
+    "song": "d",
+    "gender": "masculino",
+    "description": "un joven de 20 años calvo y fuerte vestido de chandal",
+    "profession": "monitor de gym",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es masculino con un joven de 20 años calvo y fuerte vestido de chandal y trabaja como monitor de gym. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/j6ahisMHgaqfK62MEkiVLngd7jjIw2FpAMn0HuvIT5kmzi8JA/out-0.webp"
+  },
+  {
+    "song": "d",
+    "gender": "masculino",
+    "description": "Calvo, joven, 30 años, pelo rapado, chandal, sudor",
+    "profession": "gimnasta",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es masculino con Calvo, joven, 30 años, pelo rapado, chandal, sudor y trabaja como gimnasta. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/epxKgtQSSMzIaSNcuJ9tu1dJfJGRkjgrPaU7KgrKi7CYrF5TA/out-0.webp"
+  },
+  {
+    "song": "Esa Estrella, Siloé",
+    "gender": "femenino",
+    "description": "Mujer con el pelo muy corto estilo mohicano, pendientes largos, labios rojos, ojos claros.",
+    "profession": "Policia secreta",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es femenino con Mujer con el pelo muy corto estilo mohicano, pendientes largos, labios rojos, ojos claros. y trabaja como Policia secreta. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/gN7jU4VtBPqLAZxgi4mJDyeA8l9APO2lVvolapZ94msj3i8JA/out-0.webp"
+  },
+  {
+    "song": "Esa Estrella, Siloé",
+    "gender": "masculino",
+    "description": "un joven con gafas, pelo largo y abrigo oscuro",
+    "profession": "Policia secreta",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es masculino con un joven con gafas, pelo largo y abrigo oscuro y trabaja como Policia secreta. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/almqyf1QgCTQeEHuq5qA9Qj7fkUejZtqjph5qehbcDoLvuIfE/out-0.webp"
+  },
+  {
+    "song": "es",
+    "gender": "femení",
+    "description": "una jove amb ulleres, cabell llarg i un abric vermell",
+    "profession": "espia secret",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es femení con una jove amb ulleres, cabell llarg i un abric vermell y trabaja como espia secret. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/qooG3mfkCoSDWifvyuVUjuuN4VwzIqRVtfI06fT9QhS3HYkPB/out-0.webp"
+  },
+  {
+    "song": "Falling in reverse",
+    "gender": "femení",
+    "description": "una dona de 50 anys amb els cabells curts i grisos. Té arracades i collaret de perles, un vestit i un abric de pell.",
+    "profession": "artista",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es femení con una dona de 50 anys amb els cabells curts i grisos. Té arracades i collaret de perles, un vestit i un abric de pell. y trabaja como artista. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/1e868YhIwx2wcCN6rzZCMvru2SNmcJ6jBe55N33PrE90DG5TA/out-0.webp"
+  },
+  {
+    "song": "Esa Estrella, Siloé",
+    "gender": "masculino",
+    "description": "un joven con gadas y pelo largo",
+    "profession": "Policia secreta",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es masculino con un joven con gadas y pelo largo y trabaja como Policia secreta. Estilo oscuro y sombrío similar a Sin City.",
+    "avatarUrl": "https://replicate.delivery/xezq/YjpfWLnDiRXGcSOWgtEZZqr2MrwSmRE7ZBSNo1fcBYUuEG5TA/out-0.webp"
+  }
+]
