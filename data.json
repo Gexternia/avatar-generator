@@ -246,5 +246,13 @@
     "profession": "espia secret",
     "prompt": "Retrato de un personaje estilo novela gráfica noir. Es femení con Una jove amb ulleres, cabell llarg i un abric vermell y trabaja como espia secret. Estilo oscuro y sombrío similar a Sin City.",
     "avatarUrl": "https://replicate.delivery/xezq/KOEKeBtnMI2aSSYhJqeI2jQePijfUQoZZH4M88vG8buSzZkPB/out-0.webp"
+  },
+  {
+    "song": "Esa Estrella, Siloé",
+    "gender": "masculino",
+    "description": "Hombre joven",
+    "profession": "piloto",
+    "prompt": "Retrato de un personaje estilo novela gráfica noir. Es masculino con Hombre joven y trabaja como piloto. Estilo oscuro y sombrío similar a Sin City. Personas normativas, cuerpos normales.",
+    "avatarUrl": "https://replicate.delivery/xezq/ZauxGLzNAPYfcqJ0S59MHaHtV7xTdyJLDqeQdRFNIuVr0G5TA/out-0.webp"
   }
 ]

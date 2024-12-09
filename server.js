@@ -19,7 +19,7 @@ const replicate = new Replicate({
 
 app.post('/generate-avatar', async (req, res) => {
   const { song, gender, description, profession } = req.body;
-  const prompt = `Retrato de un personaje estilo novela gráfica noir. Es ${gender} con ${description} y trabaja como ${profession}. Estilo oscuro y sombrío similar a Sin City.`;
+  const prompt = `Retrato de un personaje estilo novela gráfica noir. Es ${gender} con ${description} y trabaja como ${profession}. Estilo oscuro y sombrío similar a Sin City. Personas normativas, cuerpos normales.`;
 
   try {
     console.log("Enviando solicitud a Replicate para generar la imagen...");
