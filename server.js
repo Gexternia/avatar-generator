@@ -19,12 +19,12 @@ const replicate = new Replicate({
 
 app.post('/generate-avatar', async (req, res) => {
   const { song, gender, description, profession } = req.body;
-  const prompt = `Retrato de un personaje estilo novela gráfica noir. Es ${gender} con ${description} y trabaja como ${profession}. Estilo oscuro y sombrío similar a Sin City. Personas normativas, cuerpos normales.`;
+  const prompt = `Retrato de un personaje estilo novela gráfica noir. Es ${gender} con ${description} y trabaja como ${profession}. Estilo oscuro y sombrío similar a Sin City.`;
 
   try {
     console.log("Enviando solicitud a Replicate para generar la imagen...");
 
-    // Creamos la predicción y obtenemos el ID
+    // Crear predicción y obtener ID
     const prediction = await replicate.predictions.create({
       model: "black-forest-labs/flux-schnell",
       input: { prompt: prompt }
@@ -32,13 +32,13 @@ app.post('/generate-avatar', async (req, res) => {
 
     const predictionId = prediction.id;
 
-    // Esperamos hasta que la predicción se complete
+    // Esperar a que la predicción se complete
     let outputUrl = null;
     while (!outputUrl) {
       const predictionStatus = await replicate.predictions.get(predictionId);
 
       if (predictionStatus.status === 'succeeded') {
-        outputUrl = predictionStatus.output[0]; // Obtenemos la URL de la imagen generada
+        outputUrl = predictionStatus.output[0]; // Obtener URL de la imagen generada
         console.log("Imagen generada en:", outputUrl);
       } else if (predictionStatus.status === 'failed') {
         throw new Error("La predicción falló en Replicate.");
@@ -48,7 +48,7 @@ app.post('/generate-avatar', async (req, res) => {
       }
     }
 
-    // Guardamos los datos en JSON
+    // Guardar datos en JSON
     const userData = {
       song,
       gender,
@@ -74,6 +74,16 @@ app.post('/generate-avatar', async (req, res) => {
   } catch (error) {
     console.error('Error al generar el avatar:', error.message);
     res.status(500).json({ error: 'Error al generar el avatar.' });
+  }
+});
+
+// Nuevo endpoint para descargar data.json
+app.get('/data.json', (req, res) => {
+  const filePath = path.join(__dirname, 'data.json');
+  if (fs.existsSync(filePath)) {
+    res.sendFile(filePath);
+  } else {
+    res.status(404).send('No data found');
   }
 });
 
